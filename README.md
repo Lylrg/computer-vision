@@ -29,16 +29,21 @@ CNNs are specifically designed for processing grid-like data with inherent spati
 
 To enhance the robustness of the model and prevent overfitting, we performed data augmentation using the `ImageDataGenerator` from Keras with the following parameters:
 
-
 ### Validation Results
 
 The performance metrics indicate that our model is highly effective in detecting bone fractures from X-ray images. Here are some key points:
 
-High Test Accuracy: The model correctly classifies 98.67% of the test samples.
-Excellent Precision and Recall: Precision of 98.00% and recall of 99.80% show the model's reliability in identifying true positives while minimizing false positives and false negatives.
-Strong F1 Score: The F1 Score of 98.89% balances precision and recall, demonstrating the model's overall effectiveness.
+- **High Test Accuracy**: The model correctly classifies 98.67% of the test samples.
+- **Excellent Precision and Recall**: Precision of 98.00% and recall of 99.80% show the model's reliability in identifying true positives while minimizing false positives and false negatives.
+- **Strong F1 Score**: The F1 Score of 98.89% balances precision and recall, demonstrating the model's overall effectiveness.
+
+Additionally, our model was tested on a set of X-ray images that were misclassified by doctors. It correctly identified these images as showing signs of bone fractures, further validating its accuracy and potential as a diagnostic tool.
+
 Overall, these results showcase the robustness and accuracy of our CNN model in bone fracture detection, making it a valuable tool for medical diagnostics.
 
+### Deployed Model
+
+We have deployed our model using Streamlit for easy access and testing. You can try it out [here](https://bonefracturedetector.streamlit.app).
 
 ## Team
 This project was developed by:
