@@ -1,4 +1,9 @@
 # Bone Fracture Detection using CNN
+![Static Badge](https://img.shields.io/badge/PyTorch-555555?logo=PyTorch&logoColor=red)
+![Static Badge](https://img.shields.io/badge/Keras-555555?logo=Keras&logoColor=red)
+![Static Badge](https://img.shields.io/badge/TensorFlow-555555?logo=TensorFlow&logoColor=orange)
+![Static Badge](https://img.shields.io/badge/DeepLearning-555555)
+![Static Badge](https://img.shields.io/badge/Streamlit-555555?logo=Streamlit&logoColor=red)
 
 
 Welcome to our Bone Fracture Detection Project, where we ventured into the world of computer vision 📷 and deep learning 🧠to assist in medical diagnostics! This was our debut into image classification.
