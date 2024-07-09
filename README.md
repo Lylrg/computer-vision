@@ -32,7 +32,7 @@ CNNs are specifically designed for processing grid-like data with inherent spati
 
 ### Data Augmentation
 
-To enhance the robustness of the model and prevent overfitting, we performed data augmentation using the `ImageDataGenerator` from Keras with the following parameters:
+To enhance the robustness of the model and prevent overfitting, we performed data augmentation.
 
 ### Validation Results
 
